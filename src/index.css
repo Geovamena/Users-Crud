@@ -23,6 +23,12 @@ input {
     border-radius: 12px;
     background-color: white;
     position: relative;
+    transition: transform 200ms ease;
+}
+
+.form:hover {
+    transform: scale(1.05);
+    transition: transform 200ms ease;
 }
 
 .create{
@@ -52,5 +58,6 @@ input {
     margin-top: 10px;
     background-color: #EF5B0C;
     color: white;
+    cursor: pointer;
 
 }

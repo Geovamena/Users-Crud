@@ -63,7 +63,7 @@ const Form = ({ createNewUser, getAllUsers, updateInfo, setUpdateInfo, }) => {
 
         <li className='form__item'>
           <label htmlFor="email">Email</label>
-          <input {...register("name")} type="email" id='email' />
+          <input {...register("email")} type="email" id='email' />
         </li>
 
         <li className='form__item'>

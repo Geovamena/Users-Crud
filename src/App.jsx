@@ -43,7 +43,7 @@ function App() {
         />
       </div>
 
-      <button onClick={createNewUser}> Create User</button>
+      {/* <button onClick={createNewUser}> Create User</button> */}
 
       <div className='card-container'>
         {
